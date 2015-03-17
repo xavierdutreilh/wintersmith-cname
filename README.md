@@ -20,6 +20,16 @@ and add `wintersmith-cname` to your config.json
 }
 ```
 
+and define the `url` property in the `locals` section
+
+```json
+{
+  "locals": {
+    "url": "http://example.com"
+  }
+}
+```
+
 ## Running tests
 
 ```
