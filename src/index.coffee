@@ -14,8 +14,6 @@ module.exports = (env, callback) ->
         callback()
 
   env.registerGenerator 'cname', (contents, callback) ->
-    tree =
-      'CNAME': new Cname
-    callback null, tree
+    callback null, CNAME: new Cname
 
   callback()
