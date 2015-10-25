@@ -1,11 +1,15 @@
 'use strict';
 
-var grunt = require('grunt');
+var fs = require('fs');
+
+function read(filename) {
+  return fs.readFileSync(filename, {'encoding': 'utf8'});
+}
 
 exports.cname = {
   'build': function(test) {
-    var actual = grunt.file.read('tmp/build/CNAME');
-    var expected = grunt.file.read('test/expected/CNAME');
+    var actual = read('tmp/CNAME');
+    var expected = read('test/expected/CNAME');
 
     test.equal(actual, expected, 'should build the CNAME file');
 
