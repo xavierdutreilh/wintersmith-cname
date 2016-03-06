@@ -7,7 +7,7 @@ function read(filename) {
 }
 
 exports.cname = {
-  'build': function(test) {
+  'build': (test) => {
     const actual = read('tmp/CNAME');
     const expected = read('test/expected/CNAME');
 
