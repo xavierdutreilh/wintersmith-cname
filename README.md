@@ -1,16 +1,16 @@
 # wintersmith-cname [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-cname.svg?branch=master)](https://travis-ci.org/xavierdutreilh/wintersmith-cname)
 
-A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a CNAME file
+> A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a CNAME file
 
-## Installing
+## Installation
 
-Install globally or locally using npm
+Install globally or locally using npm:
 
-```
+```bash
 npm install [-g] wintersmith-cname
 ```
 
-and add `wintersmith-cname` to your config.json
+Add `wintersmith-cname` to your `config.json`:
 
 ```json
 {
@@ -20,7 +20,7 @@ and add `wintersmith-cname` to your config.json
 }
 ```
 
-and define the `url` property in the `locals` section
+Define the `url` property in the `locals` property:
 
 ```json
 {
@@ -30,9 +30,6 @@ and define the `url` property in the `locals` section
 }
 ```
 
-## Running tests
+## License
 
-```
-npm install
-npm test
-```
+`wintersmith-cname` is released under the [MIT license](http://en.wikipedia.org/wiki/MIT_License).
