@@ -1,6 +1,6 @@
 'use strict';
 
-var fs = require('fs');
+const fs = require('fs');
 
 function read(filename) {
   return fs.readFileSync(filename, {'encoding': 'utf8'});
@@ -8,8 +8,8 @@ function read(filename) {
 
 exports.cname = {
   'build': function(test) {
-    var actual = read('tmp/CNAME');
-    var expected = read('test/expected/CNAME');
+    const actual = read('tmp/CNAME');
+    const expected = read('test/expected/CNAME');
 
     test.equal(actual, expected, 'should build the CNAME file');
 
