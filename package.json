@@ -1,7 +1,7 @@
 {
   "name": "wintersmith-cname",
   "description": "A Wintersmith plugin to generate a CNAME file",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "homepage": "https://github.com/xavierdutreilh/wintersmith-cname",
   "author": {
     "name": "Xavier Dutreilh",
