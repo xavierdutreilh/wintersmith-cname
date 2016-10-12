@@ -1,4 +1,4 @@
-# wintersmith-cname [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-cname.svg?branch=master)](https://travis-ci.org/xavierdutreilh/wintersmith-cname) [![Dependency Status](https://gemnasium.com/badges/github.com/xavierdutreilh/wintersmith-cname.svg)](https://gemnasium.com/github.com/xavierdutreilh/wintersmith-cname)
+# wintersmith-cname [![Build Status](https://travis-ci.org/xavierdutreilh/wintersmith-cname.svg?branch=master)](https://travis-ci.org/xavierdutreilh/wintersmith-cname)
 
 > A [Wintersmith](https://github.com/jnordberg/wintersmith) plugin to generate a CNAME file
 
