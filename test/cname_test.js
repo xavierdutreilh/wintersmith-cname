@@ -1,18 +1,16 @@
-'use strict';
+const fs = require('fs')
 
-const fs = require('fs');
-
-function read(filename) {
-  return fs.readFileSync(filename, 'utf8');
+function read (filename) {
+  return fs.readFileSync(filename, 'utf8')
 }
 
 exports.cname = {
   'build': (test) => {
-    const actual = read(`${__dirname}/../tmp/CNAME`);
-    const expected = read(`${__dirname}/expected/CNAME`);
+    const actual = read(`${__dirname}/../tmp/CNAME`)
+    const expected = read(`${__dirname}/expected/CNAME`)
 
-    test.equal(actual, expected, 'should build the CNAME file');
+    test.equal(actual, expected, 'should build the CNAME file')
 
-    test.done();
-  },
-};
+    test.done()
+  }
+}
