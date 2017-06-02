@@ -24,13 +24,12 @@
     "pretest": "standard && wintersmith build -C examples/basic",
     "test": "nodeunit"
   },
+  "dependencies": {
+    "wintersmith": "^2.3.6"
+  },
   "devDependencies": {
     "nodeunit": "^0.11.0",
-    "standard": "^9.0.0",
-    "wintersmith": "2.x"
-  },
-  "peerDependencies": {
-    "wintersmith": "2.x"
+    "standard": "^9.0.0"
   },
   "keywords": [
     "cname",
