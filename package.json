@@ -25,11 +25,11 @@
     "test": "nodeunit"
   },
   "dependencies": {
-    "wintersmith": "^2.3.6"
+    "wintersmith": "^2.4.1"
   },
   "devDependencies": {
     "nodeunit": "^0.11.0",
-    "standard": "^10.0.2"
+    "standard": "^10.0.3"
   },
   "keywords": [
     "cname",
